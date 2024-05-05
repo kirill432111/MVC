@@ -1,0 +1,31 @@
+﻿@model StudentGetAllDto
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Список студентов</h1>
+    <a href="/Student/Add" class="btn btn-primary">Добавить студента</a>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Группа</th>
+            <th>Действие</th>
+        </tr>
+        @foreach(var student in Model.Students)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.LastName</td>
+                <td>@student.FirstName</td>
+                <td>@Model.Groups.FirstOrDefault(x=>x.Id==student.GroupeId)?.Name</td>
+                <td>
+                    <a href="/Student/Edit/@student.Id">Редактировать</a>
+                    <a href="/Student/Delete/@student.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,11 @@
+D:\проекты\WebApplication1\StudentCore\bin\Debug\net6.0\StudentCore.deps.json
+D:\проекты\WebApplication1\StudentCore\bin\Debug\net6.0\StudentCore.dll
+D:\проекты\WebApplication1\StudentCore\bin\Debug\net6.0\StudentCore.pdb
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.AssemblyInfoInputs.cache
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.AssemblyInfo.cs
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.csproj.CoreCompileInputs.cache
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.dll
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\refint\StudentCore.dll
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\StudentCore.pdb
+D:\проекты\WebApplication1\StudentCore\obj\Debug\net6.0\ref\StudentCore.dll

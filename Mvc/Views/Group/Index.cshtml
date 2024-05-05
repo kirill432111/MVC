@@ -1,0 +1,27 @@
+﻿@model List<Group>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Список групп</h1>
+    <a href="/Group/Add" class="btn btn-primary">Добавить группу</a>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Название</th>
+            <th>Действие</th>
+        </tr>
+        @foreach(var group in Model)
+        {
+            <tr>
+                <td>@group.Id</td>
+                <td>@group.Name</td>
+                <td>
+                    <a href="/Group/Edit/@group.Id">Редактировать</a>
+                    <a href="/Group/Delete/@group.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
